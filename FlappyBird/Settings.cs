@@ -16,8 +16,9 @@ namespace FlappyBird
         public static int score = 0;
 
         //public static int pipeBottomLoc = 1050;
-        public static int pipeBottomLoc = 1220;
-        public static int pipeTopLoc = 1000;
+        //public static int pipeTopLoc = 1000;
+        public static int pipeBottomLoc = 800;
+        public static int pipeTopLoc = 600;
 
         public static bool GameOver = false;
 

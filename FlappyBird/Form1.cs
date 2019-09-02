@@ -40,17 +40,17 @@ namespace FlappyBird
             // collision
             if (flappyBird.Bounds.IntersectsWith(ground.Bounds))
             {
-                endGame();
+                EndGame();
             }
 
             else if (flappyBird.Bounds.IntersectsWith(pipeBottom.Bounds))
             {
-                endGame();
+                EndGame();
             }
 
             else if (flappyBird.Bounds.IntersectsWith(pipeTop.Bounds))
             {
-                endGame();
+                EndGame();
             }
 
 
@@ -101,7 +101,7 @@ namespace FlappyBird
             }
         }
 
-        private void endGame()
+        private void EndGame()
         {
             gameTimer.Stop();
             endText1.Text = Settings.score.ToString();
